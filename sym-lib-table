@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ZeBra-X")(type "KiCad")(uri "${KIPRJMOD}/Library/ZeBra-X.kicad_sym")(options "")(descr ""))
+)

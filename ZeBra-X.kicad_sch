@@ -1,0 +1,38 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ec71d28a-654e-4dfb-b412-dd09b7b3e4b8)
+
+  (paper "A4")
+
+  (title_block
+    (title "ZeBra-X: A Xylinx Zynq Demo Board")
+    (date "2023-12-09")
+    (rev "-")
+    (company "Designed By: Dylan Gutierrez")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 181.61 138.43) (size 27.94 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cfab6287-ef0f-4365-a93b-cb72226100e1)
+    (property "Sheetname" "[1] Power" (at 181.61 137.0834 0)
+      (effects (font (size 2.54 2.54) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 181.61 160.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ZeBra-X"
+        (path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
