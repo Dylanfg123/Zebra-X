@@ -1,0 +1,3 @@
+# ZeBra-X: A Xilinx Zynq Demo Board
+
+The ZeBra-X board is my take on the Phil's Lab ZettBrett board. The heart of this board is a Xilinx Zynq (XC7Z010-2CLG400) SOC demo board featuring a 1Gig ethernet interface, USB-UART/USB-JTAG FTDI, USB HS, 1GB DDR3 memory, 4GB eMMC memory, and 16MB QSPI Flash. The main purpose of this board is to learn more about advanced PCB design techniques and get more familiar with the Xilinx software suite.
