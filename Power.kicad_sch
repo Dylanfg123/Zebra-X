@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "ZeBra-X: A Xylinx Zynq Demo Board")
+    (title "ZeBra-X: A Xilinx Zynq Demo Board")
     (date "2023-12-09")
     (rev "-")
     (company "Designed By: Dylan Gutierrez")
@@ -1303,7 +1303,6 @@
       )
     )
   )
-
 
   (junction (at 85.09 149.86) (diameter 0) (color 0 0 0 0)
     (uuid 01f897e0-a38e-48d6-810c-dfceb5927fb4)
@@ -2959,7 +2958,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 16329a1a-4273-4107-97e1-aebb7b115509)
   )
-  (text "V(Out)=0.6*(1+Rhi/Rlo)=0.6*(1+68/100)=1.008V" (at 234.95 20.32 0)
+  (text "V(Out)=0.6*(1+Rhi/Rlo)=0.6*(1+68/100)=1.008V" (at 234.95 21.59 0)
     (effects (font (size 0.889 0.889) bold) (justify left bottom))
     (uuid 26232266-2f64-42d0-9133-bc2d38bfba56)
   )

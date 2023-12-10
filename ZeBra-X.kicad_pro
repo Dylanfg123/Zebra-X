@@ -475,6 +475,10 @@
     [
       "cfab6287-ef0f-4365-a93b-cb72226100e1",
       "[1] Power"
+    ],
+    [
+      "7bfac455-2207-4651-9024-5f4a3b59f883",
+      "[2] Zynq Power"
     ]
   ],
   "text_variables": {}
