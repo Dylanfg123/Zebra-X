@@ -479,6 +479,10 @@
     [
       "7bfac455-2207-4651-9024-5f4a3b59f883",
       "[2] Zynq Power"
+    ],
+    [
+      "b94623a7-025c-4682-97b9-752e423a938a",
+      "[3] Config, JTAG, Debug"
     ]
   ],
   "text_variables": {}
