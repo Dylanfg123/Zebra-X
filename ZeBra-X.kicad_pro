@@ -377,8 +377,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
       "unannotated": "error",
@@ -483,6 +483,10 @@
     [
       "b94623a7-025c-4682-97b9-752e423a938a",
       "[3] Config, JTAG, Debug"
+    ],
+    [
+      "32323bec-ef15-4b6a-8465-a039dd36cc03",
+      "[4] Zynq Processing System (PS)"
     ]
   ],
   "text_variables": {}
