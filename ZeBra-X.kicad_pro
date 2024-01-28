@@ -487,6 +487,10 @@
     [
       "32323bec-ef15-4b6a-8465-a039dd36cc03",
       "[4] Zynq Processing System (PS)"
+    ],
+    [
+      "369d50d7-e508-4bcb-a2d0-a2c7d0c5b870",
+      "[5] Zynq Programmable Logic (PL)"
     ]
   ],
   "text_variables": {}
