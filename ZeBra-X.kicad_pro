@@ -491,6 +491,10 @@
     [
       "369d50d7-e508-4bcb-a2d0-a2c7d0c5b870",
       "[5] Zynq Programmable Logic (PL)"
+    ],
+    [
+      "6654cd68-a29c-475c-8e14-c9bab4900934",
+      "[6] Zynq DDR Interface & Termination"
     ]
   ],
   "text_variables": {}
