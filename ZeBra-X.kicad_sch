@@ -1,124 +1,293 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid ec71d28a-654e-4dfb-b412-dd09b7b3e4b8)
-
-  (paper "A4")
-
-  (title_block
-    (title "ZeBra-X: A Xilinx Zynq Demo Board")
-    (date "2023-12-09")
-    (rev "-")
-    (company "Designed By: Dylan Gutierrez")
-    (comment 1 "Based on Phil's Lab \"ZettBrett\" board")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 138.43 33.02) (size 64.77 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 32323bec-ef15-4b6a-8465-a039dd36cc03)
-    (property "Sheetname" "[4] Zynq Processing System (PS)" (at 138.43 31.6734 0)
-      (effects (font (size 2.54 2.54) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Zynq_Processing_System.kicad_sch" (at 138.43 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ZeBra-X"
-        (path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 210.82 33.02) (size 67.31 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 369d50d7-e508-4bcb-a2d0-a2c7d0c5b870)
-    (property "Sheetname" "[5] Zynq Programmable Logic (PL)" (at 210.82 31.6734 0)
-      (effects (font (size 2.54 2.54) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Zynq_Programmable_Logic.kicad_sch" (at 210.82 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ZeBra-X"
-        (path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 16.51 68.58) (size 72.39 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6654cd68-a29c-475c-8e14-c9bab4900934)
-    (property "Sheetname" "[6] Zynq DDR Interface & Termination" (at 16.51 67.2334 0)
-      (effects (font (size 2.54 2.54) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Zynq_DDR_Interface_Termination.kicad_sch" (at 16.51 90.7546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ZeBra-X"
-        (path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 46.99 33.02) (size 30.48 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7bfac455-2207-4651-9024-5f4a3b59f883)
-    (property "Sheetname" "[2] Zynq Power" (at 46.99 31.6734 0)
-      (effects (font (size 2.54 2.54) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Zynq_Power.kicad_sch" (at 46.99 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ZeBra-X"
-        (path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 85.09 33.02) (size 45.72 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b94623a7-025c-4682-97b9-752e423a938a)
-    (property "Sheetname" "[3] Config, JTAG, Debug" (at 85.09 31.6734 0)
-      (effects (font (size 2.54 2.54) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Config_JTAG_Debug.kicad_sch" (at 85.09 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ZeBra-X"
-        (path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 16.51 33.02) (size 27.94 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cfab6287-ef0f-4365-a93b-cb72226100e1)
-    (property "Sheetname" "[1] Power" (at 16.51 31.6734 0)
-      (effects (font (size 2.54 2.54) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 16.51 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ZeBra-X"
-        (path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ec71d28a-654e-4dfb-b412-dd09b7b3e4b8")
+	(paper "A4")
+	(title_block
+		(title "ZeBra-X: A Xilinx Zynq Demo Board")
+		(date "2023-12-09")
+		(rev "-")
+		(company "Designed By: Dylan Gutierrez")
+		(comment 1 "Based on Phil's Lab \"ZettBrett\" board")
+	)
+	(lib_symbols)
+	(sheet
+		(at 138.43 33.02)
+		(size 64.77 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32323bec-ef15-4b6a-8465-a039dd36cc03")
+		(property "Sheetname" "[4] Zynq Processing System (PS)"
+			(at 138.43 31.6734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Zynq_Processing_System.kicad_sch"
+			(at 138.43 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 68.58)
+		(size 50.8 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34974a33-4b50-4ae1-a5d4-26f6c9f473e5")
+		(property "Sheetname" "[7] 1GB DDR3L Modules"
+			(at 97.79 67.2334 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR3L_Modules.kicad_sch"
+			(at 97.79 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 33.02)
+		(size 67.31 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "369d50d7-e508-4bcb-a2d0-a2c7d0c5b870")
+		(property "Sheetname" "[5] Zynq Programmable Logic (PL)"
+			(at 210.82 31.6734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Zynq_Programmable_Logic.kicad_sch"
+			(at 210.82 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 68.58)
+		(size 72.39 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6654cd68-a29c-475c-8e14-c9bab4900934")
+		(property "Sheetname" "[6] Zynq DDR Interface & Termination"
+			(at 16.51 67.2334 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Zynq_DDR_Interface_Termination.kicad_sch"
+			(at 16.51 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 33.02)
+		(size 30.48 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bfac455-2207-4651-9024-5f4a3b59f883")
+		(property "Sheetname" "[2] Zynq Power"
+			(at 46.99 31.6734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Zynq_Power.kicad_sch"
+			(at 46.99 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 33.02)
+		(size 45.72 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b94623a7-025c-4682-97b9-752e423a938a")
+		(property "Sheetname" "[3] Config, JTAG, Debug"
+			(at 85.09 31.6734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Config_JTAG_Debug.kicad_sch"
+			(at 85.09 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 33.02)
+		(size 27.94 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfab6287-ef0f-4365-a93b-cb72226100e1")
+		(property "Sheetname" "[1] Power"
+			(at 16.51 31.6734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 16.51 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
