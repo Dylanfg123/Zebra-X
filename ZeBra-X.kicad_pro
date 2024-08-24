@@ -668,6 +668,18 @@
     [
       "34974a33-4b50-4ae1-a5d4-26f6c9f473e5",
       "[7] 1GB DDR3L Modules"
+    ],
+    [
+      "67bd2cf2-408e-4777-bbb3-948e9afd81fd",
+      "[8] Gigabit Ethernet"
+    ],
+    [
+      "ad5c4d8e-318a-4fad-bc7b-b19165a10e5c",
+      "[9] USB 2.0 HS"
+    ],
+    [
+      "a61b6eaf-76fc-426a-999e-e3bd98bc872d",
+      "[10] Mezzanine Connectors"
     ]
   ],
   "text_variables": {}

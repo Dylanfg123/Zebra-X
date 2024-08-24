@@ -1,0 +1,297 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "89b5ea55-56de-4bee-8735-4ebf7e389a1f")
+	(paper "A4")
+	(title_block
+		(title "Gigabit Ethernet")
+		(date "2023-12-09")
+		(rev "-")
+		(company "Designed By: Dylan Gutierrez")
+	)
+	(lib_symbols
+		(symbol "ZeBra-X:ECS-2520MV-250-BN-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ECS-2520MV-250-BN-TR"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+				(at 11.43 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+				(at -4.445 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-2520MV-250-BN-TR_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54) (xy -2.54 2.54)
+						(xy -2.54 3.81) (xy -1.905 3.81) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ECS-2520MV-250-BN-TR_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 14.478 35.306)
+		(end 279.908 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6664664a-c82a-4fa9-a6ea-5eef67a9a605)
+	)
+	(text "Ethernet PHY & RJ45 Connector"
+		(exclude_from_sim no)
+		(at 13.97 35.56 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1583eeda-4c07-44ff-8250-d55613ea9f0c")
+	)
+	(text "[8] Gigabit Ethernet"
+		(exclude_from_sim no)
+		(at 13.208 25.908 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b7ff6dc-4182-49c3-8284-0999d725892c")
+	)
+	(symbol
+		(lib_id "ZeBra-X:ECS-2520MV-250-BN-TR")
+		(at 40.64 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e63627d-d0b6-4426-ae21-baefff0a4bcb")
+		(property "Reference" "X800"
+			(at 46.228 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-2520MV-250-BN-TR"
+			(at 54.356 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+			(at 52.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+			(at 36.195 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+			(at 40.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "61c6edd7-3db9-4d06-8404-4cdd409b5b36")
+		)
+		(pin "4"
+			(uuid "03ec989e-5738-4cec-b336-63a5bd5388fc")
+		)
+		(pin "2"
+			(uuid "58ac289a-c90e-486c-8760-188639e934b3")
+		)
+		(pin "1"
+			(uuid "157a5171-8ee2-48fb-b393-8d5d3dfc6be5")
+		)
+		(instances
+			(project ""
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8/67bd2cf2-408e-4777-bbb3-948e9afd81fd"
+					(reference "X800")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,82 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6ac86e4f-bb87-4b20-99f4-2a8d53a1dfb5")
+	(paper "A4")
+	(title_block
+		(title "Expansion (Mezzanine)")
+		(date "2023-12-09")
+		(rev "-")
+		(company "Designed By: Dylan Gutierrez")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 141.478 34.036)
+		(end 231.14 161.798)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 026e6b59-9a61-4194-9faa-c9d94cccf63b)
+	)
+	(rectangle
+		(start 36.068 34.29)
+		(end 125.73 161.798)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5598faa6-bb44-4c34-b712-a6bb1088f0a1)
+	)
+	(text "PL Bank 34 (DIFF)"
+		(exclude_from_sim no)
+		(at 140.97 34.29 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "418e8fd8-9e30-4f34-a468-40513aac91c5")
+	)
+	(text "[10] Mezzanine Connectors"
+		(exclude_from_sim no)
+		(at 12.7 25.4 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b536c009-87a8-4461-9c5f-6dc6535d7d3b")
+	)
+	(text "PS MIO & PL Bank 35 (SE)"
+		(exclude_from_sim no)
+		(at 35.56 34.29 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d438e3f0-c185-46c9-94d3-5d7f9ff89619")
+	)
+)

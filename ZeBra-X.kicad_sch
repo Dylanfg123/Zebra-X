@@ -13,7 +13,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 138.43 33.02)
+		(at 138.43 53.34)
 		(size 64.77 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -25,7 +25,7 @@
 		)
 		(uuid "32323bec-ef15-4b6a-8465-a039dd36cc03")
 		(property "Sheetname" "[4] Zynq Processing System (PS)"
-			(at 138.43 31.6734 0)
+			(at 138.43 51.9934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Sheetfile" "Zynq_Processing_System.kicad_sch"
-			(at 138.43 55.1946 0)
+			(at 138.43 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 97.79 68.58)
-		(size 50.8 21.59)
+		(at 93.98 88.9)
+		(size 46.99 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -64,7 +64,7 @@
 		)
 		(uuid "34974a33-4b50-4ae1-a5d4-26f6c9f473e5")
 		(property "Sheetname" "[7] 1GB DDR3L Modules"
-			(at 97.79 67.2334 0)
+			(at 93.98 87.5534 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -74,7 +74,7 @@
 			)
 		)
 		(property "Sheetfile" "DDR3L_Modules.kicad_sch"
-			(at 97.79 90.7546 0)
+			(at 93.98 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 33.02)
+		(at 210.82 53.34)
 		(size 67.31 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -103,7 +103,7 @@
 		)
 		(uuid "369d50d7-e508-4bcb-a2d0-a2c7d0c5b870")
 		(property "Sheetname" "[5] Zynq Programmable Logic (PL)"
-			(at 210.82 31.6734 0)
+			(at 210.82 51.9934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -113,7 +113,7 @@
 			)
 		)
 		(property "Sheetfile" "Zynq_Programmable_Logic.kicad_sch"
-			(at 210.82 55.1946 0)
+			(at 210.82 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 68.58)
+		(at 15.24 88.9)
 		(size 72.39 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -142,7 +142,7 @@
 		)
 		(uuid "6654cd68-a29c-475c-8e14-c9bab4900934")
 		(property "Sheetname" "[6] Zynq DDR Interface & Termination"
-			(at 16.51 67.2334 0)
+			(at 15.24 87.5534 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -152,7 +152,7 @@
 			)
 		)
 		(property "Sheetfile" "Zynq_DDR_Interface_Termination.kicad_sch"
-			(at 16.51 90.7546 0)
+			(at 15.24 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +169,46 @@
 		)
 	)
 	(sheet
-		(at 46.99 33.02)
+		(at 146.05 88.9)
+		(size 39.37 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67bd2cf2-408e-4777-bbb3-948e9afd81fd")
+		(property "Sheetname" "[8] Gigabit Ethernet"
+			(at 146.05 87.5534 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gigabit_Ethernet.kicad_sch"
+			(at 146.05 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 53.34)
 		(size 30.48 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -181,7 +220,7 @@
 		)
 		(uuid "7bfac455-2207-4651-9024-5f4a3b59f883")
 		(property "Sheetname" "[2] Zynq Power"
-			(at 46.99 31.6734 0)
+			(at 46.99 51.9934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -191,7 +230,7 @@
 			)
 		)
 		(property "Sheetfile" "Zynq_Power.kicad_sch"
-			(at 46.99 55.1946 0)
+			(at 46.99 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,7 +247,85 @@
 		)
 	)
 	(sheet
-		(at 85.09 33.02)
+		(at 226.06 88.9)
+		(size 53.34 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a61b6eaf-76fc-426a-999e-e3bd98bc872d")
+		(property "Sheetname" "[10] Mezzanine Connectors"
+			(at 226.06 87.5534 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mezzanine_conn.kicad_sch"
+			(at 226.06 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 88.9)
+		(size 31.75 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad5c4d8e-318a-4fad-bc7b-b19165a10e5c")
+		(property "Sheetname" "[9] USB 2.0 HS"
+			(at 189.23 87.5534 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_2.0_HS.kicad_sch"
+			(at 189.23 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZeBra-X"
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 53.34)
 		(size 45.72 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -220,7 +337,7 @@
 		)
 		(uuid "b94623a7-025c-4682-97b9-752e423a938a")
 		(property "Sheetname" "[3] Config, JTAG, Debug"
-			(at 85.09 31.6734 0)
+			(at 85.09 51.9934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -230,7 +347,7 @@
 			)
 		)
 		(property "Sheetfile" "Config_JTAG_Debug.kicad_sch"
-			(at 85.09 55.1946 0)
+			(at 85.09 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,7 +364,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 33.02)
+		(at 15.24 53.34)
 		(size 27.94 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -259,7 +376,7 @@
 		)
 		(uuid "cfab6287-ef0f-4365-a93b-cb72226100e1")
 		(property "Sheetname" "[1] Power"
-			(at 16.51 31.6734 0)
+			(at 15.24 51.9934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -269,7 +386,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 16.51 55.1946 0)
+			(at 15.24 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

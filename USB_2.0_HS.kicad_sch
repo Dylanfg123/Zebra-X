@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ccbf2d08-bbed-4870-9136-8671af3ed4ff")
+	(paper "A4")
+	(title_block
+		(title "USB 2.0 HS")
+		(date "2023-12-09")
+		(rev "-")
+		(company "Designed By: Dylan Gutierrez")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 13.97 34.798)
+		(end 279.4 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08eaca11-af63-484e-967c-6061ca298882)
+	)
+	(text "[9] USB 2.0 High-Speed (OTG)"
+		(exclude_from_sim no)
+		(at 12.7 25.4 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6adbe7e3-0598-48b5-888e-11397d1513a2")
+	)
+	(text "USB HS PHY & Mini AB Connector"
+		(exclude_from_sim no)
+		(at 13.462 35.052 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3d412ff-f81b-4c3d-8bce-4affc8d1e611")
+	)
+)
