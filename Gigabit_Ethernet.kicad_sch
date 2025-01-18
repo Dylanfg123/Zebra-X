@@ -6935,7 +6935,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ZeBra-X:RTL8211F-CG")
 		(lib_id "ZeBra-X:RTL8211F-CG")
 		(at 146.05 104.14 0)
 		(unit 1)
@@ -9635,7 +9634,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+		(property "Description" "XTAL OSC XO 25.0000MHZ CMOS SMD"
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ecs-inc/ecs-2520mv-250-bn-tr/8593607?_gl=1*pkc9pi*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAv628BhC2ARIsAIJIiK_gC5z4fVgKeGw85gbylbf80bbv2gx8Tdjn1h0ffjvb1ZfNebJjHEwaAgYrEALw_wcB&gclsrc=aw.ds"
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS"
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ECS-2520MV-250-BN-TR"
 			(at 39.37 144.78 0)
 			(effects
 				(font
