@@ -41150,7 +41150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab215d25-f4b8-451b-a6b4-606c36be9cca")
-		(property "Reference" "FB1"
+		(property "Reference" "FB302"
 			(at 278.13 88.9 90)
 			(effects
 				(font
@@ -41238,7 +41238,7 @@
 		(instances
 			(project "ZeBra-X"
 				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8/b94623a7-025c-4682-97b9-752e423a938a"
-					(reference "FB1")
+					(reference "FB302")
 					(unit 1)
 				)
 			)

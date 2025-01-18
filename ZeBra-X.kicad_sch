@@ -12,6 +12,44 @@
 		(comment 1 "Based on Phil's Lab \"ZettBrett\" board")
 	)
 	(lib_symbols)
+	(text "ZeBra-X - System Diagram"
+		(exclude_from_sim no)
+		(at 14.224 26.924 0)
+		(effects
+			(font
+				(face "Century Gothic")
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4678e64f-d20d-4a6b-8378-b8924d85bcbe")
+	)
+	(text "TODO: finish this page"
+		(exclude_from_sim no)
+		(at 247.65 118.364 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "cfc6f56e-9314-4c91-a889-0be1d7f31fc6")
+	)
+	(text "TODO: finish this page"
+		(exclude_from_sim no)
+		(at 204.47 118.11 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "fa583eaf-b720-4da3-8d0c-d62e9b3d0c05")
+	)
 	(sheet
 		(at 138.43 53.34)
 		(size 64.77 21.59)
