@@ -441,24 +441,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 1.27 0)
+			(property "Reference" "U200"
+				(at -17.78 67.31 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "XC7Z010-2CLG400I"
-				(at 0 -1.27 0)
+				(at -17.78 -64.77 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "ZeBra_footprints:CLG400_XIL"
-				(at 0 -142.24 0)
+				(at -10.16 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -467,7 +469,7 @@
 				)
 			)
 			(property "Datasheet" "https://docs.xilinx.com/v/u/en-US/ds190-Zynq-7000-Overview"
-				(at 2.54 -128.27 0)
+				(at 2.54 -59.69 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -476,52 +478,7 @@
 				)
 			)
 			(property "Description" "667 MHz Zynq 7000 AP SoC, 130 PS I/O, 100 FPGA I/O, 400-Ball BGA, Speed Grade 1, Industrial Grade, Pb-Free"
-				(at 2.54 -135.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "AMD Xilinx"
-				(at 0 -123.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer PN" "XC7Z010-2CLG400I"
-				(at 0 -125.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC PN" "C2840993"
-				(at 0 -138.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Layout Guide" "https://docs.xilinx.com/v/u/en-US/ug483_7Series_PCB"
-				(at 0 -133.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Layout Guide 2" "https://docs.xilinx.com/v/u/en-US/ug933-Zynq-7000-PCB"
-				(at 0 -144.78 0)
+				(at 2.54 -67.31 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -530,7 +487,61 @@
 				)
 			)
 			(property "Package Spec" "https://docs.xilinx.com/v/u/en-US/ug865-Zynq-7000-Pkg-Pinout"
-				(at 0 -130.81 0)
+				(at 0 -62.23 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Layout Guide" "https://docs.xilinx.com/v/u/en-US/ug483_7Series_PCB"
+				(at 0 -64.77 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "AMD Xilinx"
+				(at 0 -54.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer PN" "XC7Z010-2CLG400I"
+				(at 0 -57.15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Layout Guide 2" "https://docs.xilinx.com/v/u/en-US/ug933-Zynq-7000-PCB"
+				(at 0 -76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C2840993"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC #" ""
+				(at 0 -138.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -773,7 +784,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 22.86 -38.1 180)
+					(at 24.13 -85.09 180)
 					(length 5.08)
 					(name "IO_L20N_T3_34"
 						(effects
@@ -16858,7 +16869,7 @@
 		(dnp no)
 		(uuid "e493228d-1862-4124-9f69-0cf707bfd2c9")
 		(property "Reference" "U200"
-			(at 59.69 50.8 0)
+			(at 59.944 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16867,7 +16878,7 @@
 			)
 		)
 		(property "Value" "XC7Z010-2CLG400I"
-			(at 59.69 172.72 0)
+			(at 83.566 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18166,7 +18177,11 @@
 			(uuid "c8501396-4bbc-4eae-a223-777ea6564e2f")
 		)
 		(instances
-			(project "ZeBra-X"
+			(project ""
+				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8/369d50d7-e508-4bcb-a2d0-a2c7d0c5b870"
+					(reference "U200")
+					(unit 5)
+				)
 				(path "/ec71d28a-654e-4dfb-b412-dd09b7b3e4b8/6654cd68-a29c-475c-8e14-c9bab4900934"
 					(reference "U200")
 					(unit 5)
